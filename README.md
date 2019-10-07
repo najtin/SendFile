@@ -1,13 +1,8 @@
 # Web Panel
 
-Web Panel is an Opera sidebar extension. It allows you to visit web pages in the sidebar, and adds basic functionality like bookmarks.
+SindFile is an Opera sidebar extension. It allows you to open send.firefox.com in the sidebar.
 
 ### Installation
-
-#### The regular way (stable)
-
-<a href="https://addons.opera.com/extensions/details/web-panel/"><img src="https://dev.opera.com/extensions/branding-guidelines/addons_206x58_en@2x.png" width=206></a>
-
 #### From github, development version (unstable)
 
 1. Click the green "Clone or download" button, then "Download ZIP".
