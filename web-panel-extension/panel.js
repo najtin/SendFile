@@ -66,8 +66,7 @@ var panel = new function()
 
 		if (typeof lastSite.lastSite === 'undefined' || lastSite.lastSite === '')
 		{
-			startupPage = 'local://welcome/index.html';
-			chrome.storage.local.set({'lastSite': startupPage});	
+			startupPage = 'https://send.firefox.com';	
 		}
 		else
 		{
@@ -213,32 +212,8 @@ var panel = new function()
 
 	this.loadURL = function()
 	{
-		var search = $('#url').val().match(/^[a-zA-Z]+:\/\//i);
-
-		if (search == null)
-		{
-			checkHashAndSet('http://' + $('#url').val(), true);
-		}
-		else
-		{
-			search = $('#url').val().match(/^local:\/\//i);
-
-			if (search == null)
-			{
-				checkHashAndSet($('#url').val(), true);
-			}
-			else
-			{
-				checkHashAndSet( chrome.extension.getURL( $('#url').val().substring(8) ), false );
-
-				// If another web page is loading right now, the covers must be removed:
-				$('#loading').css('display', 'none');
-				clearTimeout(loadingSlowTimeout);
-				$('#loadingSlow').css('display', 'none');
-			}
-		}
+		checkHashAndSet($('#url').val(), true);
 	};
-
 	init();
 };
 

@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
 
-    "name": "Web Panel",
-    "description": "Navigate to websites in the sidebar.",
-    "version": "1.5",
+    "name": "SendFox - Sidebar",
+    "description": "Open send.firefox.com in the sidebar",
+    "version": "1.0",
     "background": {"scripts": ["background.js"]},
-    "developer": { "name": "Gustav Ekner" },
+    "developer": { "name": "najtin" },
     "icons": {
         "16": "icons/web-panel-16.png",
         "48": "icons/web-panel-48.png",
