@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "SendFox - Sidebar",
+    "name": "SendFile for Firefox Send - Sidebar",
     "description": "Open send.firefox.com in the sidebar",
     "version": "1.0",
     "background": {"scripts": ["background.js"]},
@@ -24,7 +24,7 @@
 
     "sidebar_action": {
         "default_icon": "icons/web-panel-16.png",
-        "default_title" : "Web Panel",
+        "default_title" : "SendFile",
         "default_panel": "panel.html"
     },
 
