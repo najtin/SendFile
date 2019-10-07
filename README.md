@@ -1,4 +1,4 @@
-# Web Panel
+# SendFile
 
 SindFile is an Opera sidebar extension. It allows you to open send.firefox.com in the sidebar.
 
